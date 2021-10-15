@@ -1,0 +1,60 @@
+body {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+* {
+  margin:0; 
+  padding:0;
+}
+
+nav {
+background-color: gold;
+ margin:auto;
+ text-align: center;
+ width: 100%;
+ font-family: arial;
+} 
+
+nav ul {
+ background-color:goldenrod;
+ list-style: none;
+ position: relative;
+ display:inline-table;
+ width: 100%;
+}
+
+nav ul li{
+ float:center;
+}
+
+nav ul li:hover{
+ background:#fc0633;
+}
+
+nav ul li:hover a{
+  color:#000;
+}
+
+nav ul li a{
+  display: block;
+  padding: 25px;
+  color: rgb(228, 15, 15);
+  text-decoration: none;
+}
+
+
+.container{
+  position: relative;
+  left: 90%;
+  top: 10%;
+  transform: translate(-50%,-50%);
+  padding: 200px;
+  width: 400px;
+  background-color: rgba(224, 13, 243, 0.7);
+  box-shadow: 0 0 10px rgba(240, 8, 221, 0.3);}
+
+ 

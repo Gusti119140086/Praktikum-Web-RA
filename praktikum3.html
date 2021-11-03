@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>minggu 3</title>
+    <link rel="stylesheet" type="text/css" href="">
+</head>
+<body>
+    <label for="tema">select theme</label>
+    <select name="tema" id="tema" onchange="gantiTema()">
+    <option value="white">light</option>
+    <option value="black">dark</option>
+    </select>
+
+    <p>this is my website</p>
+
+    <label for="cuaca">select the weather type today</label>
+    
+    <select name="cuaca" id="cuaca" onchange="gantiCuaca()">
+        <option value="sunny">terang</option>
+        <option value="rainy">hujan</option>
+    </select>
+
+    <p id="weather"></p>
+
+    <label for="faktorial" class="nomor">input number:</label>
+    <input type="number" id="factorial" name="factorial">
+    <button class="tombol" onclick="rumus()">get factorial</button>
+    <p id="result"></p>
+
+    <script src=mg03.js></script>
+    
+</body>
+</html>
